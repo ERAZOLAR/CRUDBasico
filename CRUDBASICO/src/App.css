@@ -1,0 +1,173 @@
+.PaginaInicio{
+  background-color: rgb(53, 53, 51);
+  color: azure;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+.BotonInicio{
+  background-color:greenyellow;
+  border-radius: 8px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.TituloDiligenciar{
+  color:darkgray;
+  display: grid;
+  justify-content: center;
+
+}
+
+.IdFormato{
+  background-color: gainsboro;
+  border-radius: 5px;
+
+}
+
+.IdNombre{
+  background-color: gainsboro;
+  border-radius: 5px;
+
+}
+
+.IdDescripcion{
+  background-color: gainsboro;
+  border-radius: 5px;
+
+}
+
+.IdBotonConfirmar{
+  background-color: greenyellow;
+  border-radius: 5px;
+
+}
+
+.IdBotonCancelar{
+  background-color: red;
+  border-radius: 5px;
+
+}
+
+.TablaHead{
+  display: flex;
+  justify-items: center;
+  color: rgb(45, 228, 228);
+}
+
+.TablaHeadId{
+  display: flex;
+  justify-items: center;
+  color: red;
+  background-color: gainsboro;
+}
+
+.TablaHeadNombre{
+  display: flex;
+  justify-items: center;
+  color: red;
+  background-color: gainsboro;
+}
+
+.TablaHeadDescripcion{
+  display: flex;
+  justify-items: center;
+  color: red;
+  background-color: gainsboro;
+  
+}
+
+.BotonActualizarTabla{
+  background-color: chartreuse;
+}
+
+.BotonCancelarTabla{
+  background-color: crimson;
+}
+
+.BotonEditar{
+  color: blue;
+
+}
+
+.BotonEliminar{
+  color: crimson;
+
+}
+
+{/*}.RegistroId{
+  display: flex;
+  justify-content: center;
+}
+
+.RegistroNombre{
+  display: flex;
+  justify-content: center;
+}
+
+.RegistroDescripcion{
+  display: flex;
+  justify-content: center;
+}
+
+.RegistroAcciones{
+  display: flex;
+  justify-content: center;
+}
+
+.RegistroTabla{
+  display: flex;
+  
+  
+}
+
+*/}
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
