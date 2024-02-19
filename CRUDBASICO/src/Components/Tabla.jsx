@@ -18,11 +18,11 @@ const Tabla = ({ data, onEdit, onDelete }) => {
 
             </tbody>
             {/*<td>ID: {item.id}</td>*/}
-            <td>{item.id}</td>
+            <td className='ItemId'>{item.id}</td>
             {/*<p>Nombre: {item.nombre}</p>*/}
-            <td>{item.nombre}</td>
+            <td className='ItemNombre'>{item.nombre}</td>
             {/*<p>Descripción: {item.descripcion}</p>*/}
-            <td>{item.descripcion}</td>
+            <td className='ItemDescripcion'>{item.descripcion}</td>
             <button className='BotonEditar' onClick={() => onEdit(item)}>Editar</button>
             <button className='BotonEliminar' onClick={() => onDelete(item.id)}>Eliminar</button>
 

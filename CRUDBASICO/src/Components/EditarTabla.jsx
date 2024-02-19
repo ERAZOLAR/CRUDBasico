@@ -21,7 +21,7 @@ const EditarTabla = ({ isOpen, onClose, onUpdate, selectedData }) => {
   return (
   <div style={{ display: isOpen ? 'block' : 'none' }}>
       <div>
-      <table className='TablaHead'>
+      <table >
             <thead >
               <th>ID</th>
               <th>NOMBRE</th>

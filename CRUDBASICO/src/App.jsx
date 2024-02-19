@@ -32,7 +32,7 @@ const App = () => {
 
   return (
     <div className='PaginaInicio'>
-      <h3>! REGISTRAR INFORMACION !</h3>
+      <h3 className='Titulo'>! REGISTRAR INFORMACION !</h3>
       <Formulario />
       
       

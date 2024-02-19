@@ -4,6 +4,12 @@
   border-radius: 10px;
   display: grid;
   justify-content: center;
+  
+}
+
+.Titulo{
+  display: flex;
+  justify-content: center;
 }
 
 .BotonInicio{
@@ -13,6 +19,12 @@
   display: flex;
   justify-content: center;
   
+}
+
+.BotonInicio:hover{
+  width : 200px;
+  background-color: green;
+  color: white;
 }
 
 .TituloDiligenciar{
@@ -46,11 +58,23 @@
 
 }
 
+.IdBotonConfirmar:hover{
+  width : 90px;
+  background-color: green;
+  color: white;
+}
+
 .IdBotonCancelar{
   background-color: red;
   border-radius: 5px;
 
 }
+
+.IdBotonCancelar:hover{
+  width : 85px;
+  background-color: crimson;
+  color: white;
+}C
 
 .TablaHead{
   display: flex;
@@ -89,42 +113,72 @@
 }
 
 .BotonEditar{
-  color: blue;
+  color: green;
+  border-radius: 5px;
 
+}
+
+.BotonEditar:hover{
+  width : 60px;
+  background-color: green;
+  color: white;
 }
 
 .BotonEliminar{
   color: crimson;
+  border-radius: 5px;
 
 }
 
-{/*}.RegistroId{
+.BotonEliminar:hover{
+  width : 75px;
+  background-color: red;
+  color: white;
+}
+
+
+
+.RegistroId{
   display: flex;
   justify-content: center;
+  color: yellow;
 }
 
 .RegistroNombre{
-  display: flex;
-  justify-content: center;
+  color: yellow;
+  text-align: center;
+  
 }
 
 .RegistroDescripcion{
   display: flex;
   justify-content: center;
+  color: yellow;
+  
 }
 
 .RegistroAcciones{
-  display: flex;
-  justify-content: center;
-}
-
-.RegistroTabla{
-  display: flex;
-  
+  color: yellow;
+  text-align: center;
   
 }
 
-*/}
+.ItemId{
+  color: aqua;
+  padding-right: 50px;
+  
+}
+
+.ItemNombre{
+  color: aqua;
+  padding-right: 50px;
+}
+
+.ItemDescripcion{
+  color: aqua;
+  padding-right: 50px;
+}
+
 
 
 
